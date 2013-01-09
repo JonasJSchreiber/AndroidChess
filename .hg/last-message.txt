@@ -1,0 +1,6 @@
+Corrections Made 
+1. Can now deselect a piece by clicking on any other square.
+2. Move definitions which were set statically, are now done dynamically.
+3. Pawn's Movements corrected.
+4. King castling squares are now only highlighted in the event that the king has not moved. 
+5. Clicking undo during a game updates the game log so that during replays there is no issue.

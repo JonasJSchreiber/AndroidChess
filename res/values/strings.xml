@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chess, by Jonas Schreiber and Yunku Jang</string>
+ 	<string name="startmessage">Chess, by Jonas Schreiber and Yunku Jang</string>
+ 	<string name="newGame">Menu</string>
+ 	<string name="draw">Draw</string>
+ 	<string name="resign">Resign</string>
+ 	<string name="undo">Undo</string>
+ 	<string name="previous">Previous</string>
+ 	<string name="next">Next</string>
+ 	<string name="ai">AI</string>
+    
+</resources>

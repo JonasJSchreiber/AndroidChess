@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/gameLog"
+        android:layout_width="match_parent"
+        android:layout_height="122dip"
+        android:fadeScrollbars="true"
+        android:lines="7"
+        android:scrollbarStyle="insideOverlay" />
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="38dip"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/newGame"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="24dip"
+            android:text="@string/newGame" />
+
+        <Button
+            android:id="@+id/undo"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="0dip"
+            android:text="@string/undo" />
+        
+        <Button
+            android:id="@+id/Previous"
+            android:layout_width="100dip"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="0dip"
+            android:text="@string/previous" />
+        
+        <Button
+            android:id="@+id/Next"
+            android:layout_width="100dip"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="0dip"
+            android:layout_marginRight="24dip"
+            android:text="@string/next" />
+        
+        <Button
+            android:id="@+id/draw"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="0dip"
+            android:text="@string/draw" />
+        
+        <Button
+            android:id="@+id/resign"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="0dip"
+            android:text="@string/resign" />
+        
+        <Button
+            android:id="@+id/ai"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="0dip"
+            android:text="@string/ai" />
+        
+        
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chessBoardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+    
+</LinearLayout>
